@@ -1,0 +1,46 @@
+body {
+	background-color: grey;
+}
+
+table, tr, th {
+	border-style: dashed groove outset inset;
+}
+
+#intro {
+	font-size: 150%;
+	font-weight: bolder;
+	background-color: #edb9b9
+}
+
+.main{
+	background-image: linear-gradient(to right, white, grey);
+	text-align: center;
+}
+
+.main:hover {
+	transition-delay:2s;
+	text-decoration: underline;
+	background-image: linear-gradient(to right, grey, black);
+}
+.soul {
+	color: orange;
+}
+.time {
+	color: #7cfc00;
+}
+
+.space {
+	color: blue;
+}
+
+.mind {
+	color: yellow;
+}
+
+.reality {
+	color: red;
+}
+
+.power {
+	color: purple;
+}
